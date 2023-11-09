@@ -57,6 +57,12 @@ C语言学习
 		注意：指针赋值操作操作p本身，不是用*p
 	7.左值与右值
 	当一个变量做左值时，更看重这个变量对应的内存空间;当一个变量做右值时，更看重这个变量的内容，也就是变量对应内存空间中存储的数。
+	
+	github 605854183@qq.com password：260814hn..
+	github 链接 git clone https://github.com/zhn-946/ZhnRepository.git
+	如果出现fatal: unable to access 'https://github.com/zhn-946/ZhnRepository.git/': OpenSSL SSL_read: Connection was reset, errno 10054报错问题
+	产生原因：一般是这是因为服务器的SSL证书没有经过第三方机构的签署，所以才报错
+	解决办法： 解除ssl验证后，再次git即可——>git config --global http.sslVerify "false"
 3.3.野指针问题
 
 3.4.const关键字与指针
