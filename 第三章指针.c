@@ -62,9 +62,9 @@ C语言学习
 	github 链接 git clone https://github.com/zhn-946/ZhnRepository.git
 	如果出现fatal: unable to access 'https://github.com/zhn-946/ZhnRepository.git/': OpenSSL SSL_read: Connection was reset, errno 10054报错问题
 	产生原因：一般是这是因为服务器的SSL证书没有经过第三方机构的签署，所以才报错
-	解决办法： 解除ssl验证后，再次git即可——>git config --global http.sslVerify "false"
+	解决办法： 解除ssl验证后，再次git即可——>git config --global http.sslVerify false
 	
-	GitHub
+	GitHub signin登录有一个链接with a code 填写链接里的8个字符然后输入密码确认即可连接成功。
 	
 3.3.野指针问题
 
